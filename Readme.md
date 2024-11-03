@@ -103,8 +103,8 @@ Input data should be in CSV format with:
 ### Installing
 
 ```bash
-git clone https://github.com/rafieefard
-cd gene-expression-tool
+git clone https://github.com/rafieefard/liver-cancer-gene-expression-analysis
+cd liver-cancer-gene-expression-analysis
 ```
 
 ### Executing program
@@ -278,15 +278,14 @@ Gene "GENE2" with differential 0.400 is Underexpressed and probably is a tumor s
 
 ### Project Structure
 ```
-gene-expression-tool/
+liver-cancer-gene-expression-analysis/
 │
 ├── main.py                 # Main program orchestrator
 ├── gene_expression_data.py # Data handling class
 ├── statistical_analysis.py # Statistical computations
 ├── analysis_report.py      # Report generation
 ├── constants.py           # Configuration constants
-└── data/                  # Data directory
-    └── GSE14520_U133A.csv # Sample data file
+└── 
 ```
 
 ### Dependencies
@@ -618,8 +617,9 @@ Program will continue with default value of 10.
 
 ## Authors
 
-Javad Rafieefard (https://github.com/rafieefard)
-javadrafieefard@gmail.com
+[Javad Rafieefard](https://github.com/rafieefard)
+
+j.rafieefard@st.hanze.nl
 
 ## Version
 
